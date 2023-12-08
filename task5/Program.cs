@@ -6,7 +6,7 @@ int Zapros(string message) {
     return num;
 }
 
-void CubeRoot(int k) {
+void CubeRoot(int k) { // метод вычисления кубического корня
     double y = k;
     double y1 = 0;
 
@@ -19,4 +19,4 @@ void CubeRoot(int k) {
 }
 
 int x = Zapros("Введите x");
-CubeRoot(x);
+CubeRoot(x); 
